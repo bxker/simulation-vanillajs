@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="./index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main class="container-main">
+        <!-- nav bar -->
+        <nav class="nav-main">
+            <div>
+                <img src="./assets/piggy_bank.svg" alt="pig bank">
+                <h1>Budget Builder</h1>
+            </div>
+            <h2 id="total-nav">Budget Total :</h2>
+        </nav>
+        <!-- main content area -->
+        <section class="boxes">
+            <!-- left box -->
+            <div class="left-box">
+                <h1>Monthly Expenses</h1>
+            </div>
+            <!-- right box -->
+            <div class="right-box">
+                <form action="submit" id="add-form">
+                    <h1 class="add-bill">Add Bill</h1>
+                    <h2 class="h2-right">Name <input type="text" class="box-1" id="name-1"></h2>
+                    <h2 class="h2-right2">Amount <input type="text" class="box-2" id="amount-1"></h2>
+                    <button>Add</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

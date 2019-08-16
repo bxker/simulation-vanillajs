@@ -1,0 +1,122 @@
+.container-main {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Righteous', 'Roboto', sans-serif;
+}
+
+.nav-main {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #424249;
+    color: white;
+}
+
+.nav-main>div {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.nav-main>div>h1 {
+    font-size: 3rem;
+    margin-left: 2vw;
+}
+
+.nav-main>h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    width: 20vw;
+    margin-right: 1.5vw;
+}
+
+.boxes {
+    height:85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.left-box {
+    height: 10vh;
+    width: 40vw;
+    background: #EFE8E1;
+    border-radius: 5px;
+}
+
+.left-box h1 {
+    font-size: 1.75rem;
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+
+.right-box {
+    height: 30vh;
+    width: 40vw;
+    background: #54D2E5;
+    border-radius: 5px;
+}
+
+#add-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#add-form h1 {
+    font-size: 1.75rem;
+    margin-right: 20vw;
+}
+
+#add-form h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+   
+}
+
+#add-form input {
+    height: 3.5vh;
+    width: 20vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.h2-right {
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.box-1 {
+    margin-left: 2vw;
+}
+
+.h2-right2 {
+    margin-right: 2vw;
+    margin-left: 2.1vw;
+}
+
+.box-2 {
+    margin-left: .5vw;
+}
+
+#add-form button {
+    width: 67%;
+    height: 20%;
+    border-style: none;
+    border-radius: 5px;
+    background: #424249;
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+
